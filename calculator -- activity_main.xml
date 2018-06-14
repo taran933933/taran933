@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="number 1"
+        android:textSize="25dp"
+        android:textColor="#909021"
+        android:layout_margin="8dp"
+        android:id="@+id/et1"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="number 2"
+        android:layout_margin="8dp"
+        android:id="@+id/et2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_margin="8dp"
+        android:id="@+id/btn1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUL"
+        android:layout_margin="8dp"
+        android:id="@+id/btn3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIV"
+        android:layout_margin="8dp"
+        android:id="@+id/btn4"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUB"
+        android:layout_margin="8dp"
+        android:id="@+id/btn5"
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="text"
+        android:layout_margin="8dp"
+        android:id="@+id/et3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT PAGE"
+        android:layout_margin="8dp"
+        android:id="@+id/btn2"
+        />
+
+</LinearLayout>
